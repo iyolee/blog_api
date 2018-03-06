@@ -1,0 +1,33 @@
+{
+  "name": "blog_api",
+  "version": "1.0.0",
+  "description": "My Blog API",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iyolee/blog_api.git"
+  },
+  "author": "leeper",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "mongodb": "^3.0.0-rc0",
+    "mongoose": "^4.13.6"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "file-stream-rotator": "^0.2.0",
+    "gulp": "^3.9.1",
+    "log4js": "^2.3.12",
+    "morgan": "^1.9.0"
+  },
+  "bugs": {
+    "url": "https://github.com/iyolee/blog_api/issues"
+  },
+  "homepage": "https://github.com/iyolee/blog_api#readme"
+}
